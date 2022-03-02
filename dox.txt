@@ -1,0 +1,21 @@
+This simple physics engine demonstrates simple rigid body dynamics
+on axis-aligned circles, boxes and planes.
+
+It supports the following features:
+ - Integration with fixed time-step.
+ - Collision detection between circles, AABBs and planes.
+ - Collision de-penetration.
+ - Collision resolution using impulse.
+ - Friction using impulse.
+
+I started implementing rotation but I ran out of time before I could
+get it to work with any sort of stability, but this is something that
+I'd like to add in the future and that the physics engine could benefit
+a lot from. Joints and springs would be cool features to add as well
+
+This physics implementation uses the Finn Morgan's Simple
+Framework to manage rendering and mouse input.
+
+== References ==
+ - How to Create a Custom Physics Engine by Randy Gaul - https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715
+ - AIE tutorials on Canvas
