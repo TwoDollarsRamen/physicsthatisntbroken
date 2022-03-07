@@ -159,7 +159,6 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="GLFWCallbacks.cpp" />
     <ClCompile Include="LineRenderer.cpp" />
-    <ClCompile Include="SaveDialog.cpp" />
     <ClCompile Include="ShaderProgram.cpp" />
     <ClCompile Include="GameBase.cpp" />
     <ClCompile Include="Utilities.cpp" />
@@ -183,7 +182,6 @@
     <ClInclude Include="khrplatform.h" />
     <ClInclude Include="LineRenderer.h" />
     <ClInclude Include="Maths.h" />
-    <ClInclude Include="SaveDialog.h" />
     <ClInclude Include="ShaderProgram.h" />
     <ClInclude Include="GameBase.h" />
     <ClInclude Include="Utilities.h" />

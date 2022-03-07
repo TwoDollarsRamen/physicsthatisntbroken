@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <algorithm>
 
 #include <imgui.h>
 
@@ -345,7 +346,7 @@ void RigidbodySim::OnMouseClick(int mouseButton) {
 		auto rb = new_circle(1.0f);
 		rb->position = cursorPos;
 	} else if (mouseButton == GLFW_MOUSE_BUTTON_RIGHT) {
-		auto rb = new_aabb({ 1.0f, 1.0f });
+		auto rb = new_aabb({ 2.0f, 2.0f });
 		rb->position = cursorPos;
 	}
 }
