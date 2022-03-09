@@ -17,7 +17,7 @@
   <Class Name="RigidbodySim">
     <Position X="1.75" Y="0.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>CQQAKAgQEBABAAAAAAAAACAAAAAAAAAAApAgAAABAAg=</HashCode>
+      <HashCode>CQQACAgQEBABAAAAAAAAACAAAAAAAAAAApAgAAABAAg=</HashCode>
       <FileName>Rigidbody.h</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

@@ -66,8 +66,6 @@ private:
 
 	DetectorFunc detectors[3][3];
 
-	char* save_path = nullptr;
-
 	friend class Rigidbody;
 public:
 	RigidbodySim();
