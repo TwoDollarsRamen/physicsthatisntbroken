@@ -16,6 +16,9 @@ a lot from. Joints and springs would be cool features to add as well
 This physics implementation uses the Finn Morgan's Simple
 Framework to manage rendering and mouse input.
 
+To run the physics engine, make sure the `res' folder is in the program's
+working directory.
+
 == References ==
  - How to Create a Custom Physics Engine by Randy Gaul - https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715
  - AIE tutorials on Canvas

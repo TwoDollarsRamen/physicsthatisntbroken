@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Rigidbody">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Rigidbody::__unnamed_enum_0021_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rigidbody.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAQAAAAQACAAAIACAAAEBAACAAAQAAAAEBAA=</HashCode>
+      <FileName>Rigidbody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidbodySim">
+    <Position X="1.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CQQAKAgQEBABAAAAAAAAACAAAAAAAAAAApAgAAABAAg=</HashCode>
+      <FileName>Rigidbody.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rigidbodies" />
+      <Field Name="detectors" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="AABBShape">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rigidbody.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CircleShape">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rigidbody.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CollisionData">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAQAAIAAAAAA=</HashCode>
+      <FileName>Rigidbody.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="a" />
+      <Field Name="b" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="PlaneShape">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rigidbody.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="DetectorFunc" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rigidbody.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

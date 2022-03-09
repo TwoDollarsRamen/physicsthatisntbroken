@@ -24,7 +24,7 @@ GameBase::GameBase()
 	}
 	//Can choose resolution here.
 	window = glfwCreateWindow(1280, 720, "Physics Testbed", nullptr, nullptr);
-	glfwSetWindowPos(window, 1950, 30);
+	//glfwSetWindowPos(window, 1950, 30);
 
 	//This is the somewhat hacky oldschool way of making callbacks work without everything having to be global. Look
 	//at the way the function callbacks work to get an idea of what's going on.
